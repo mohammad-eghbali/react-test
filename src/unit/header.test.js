@@ -14,9 +14,9 @@ describe("Header Component", () => {
     expect(h1Element).not.toBeInTheDocument();
   });
 
-  it("should render same text 3", () => {
-    render(<Header title="title" />);
-    const h1Elements = screen.getAllByText(/hello/i);
-    expect(h1Elements.length).toBe(1);
-  });
+  // it("should render same text 3", () => {
+  //   render(<Header title="title" />);
+  //   const h1Elements = screen.getAllByText(/hello/i);
+  //   expect(h1Elements.length).toBe(2);
+  // });
 });

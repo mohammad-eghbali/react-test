@@ -6,6 +6,7 @@ export const Greeting = () => {
 
   return (
     <div>
+      Greeting Compnent:
       <p data-testid="greeting">{showGreeting && sayHello()}</p>
       <button
         data-testid="show-greeting-button"
