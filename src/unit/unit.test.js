@@ -6,6 +6,6 @@ describe("sayHello function", () => {
   });
 
   it("should return the proper greeting with the name passed", () => {
-    expect(sayHello("Evgeny")).toEqual("Hello Evgeny!");
+    expect(sayHello("mmd")).toEqual("Hello mmd!");
   });
 });
